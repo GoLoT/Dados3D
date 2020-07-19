@@ -313,7 +313,6 @@
             gl.uniformMatrix4fv(viewUniform, false, view);
 
             for(let i = 1; i <= 6; i++) {
-                //gl.bindTexture(gl.TEXTURE_2D, loadedTexture[i]);
                 gl.uniform1i(textureUniform[i], i - 1);
             }
 
